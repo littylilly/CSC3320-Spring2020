@@ -1,0 +1,36 @@
+Lab 1 Files:
+
+Assignment:
+CSC3320 System Level Programming  
+Lab Assignment 1 - Part 2 (Post-Lab)  
+Instructor: Fil Rondel 
+Due at 11:59 pm on Friday Jan. 13th, 2021 
+Purpose: Know how to install a Unix system in a virtual machine.  Part A: Environment Configuration for Unix system.  
+Install a virtual machine and Ubuntu in your operating system. x  For Windows users, please follow guide VirtualBox and Vmware Player.  x For Mac users, please follow guide VirtualBox  
+Note:  
+You can also refer to the video under link below  
+For Mac OS https://www.youtube.com/watch?v=_42JLz2izBU  
+For Windows https://www.youtube.com/watch?v=ncA85gRAJxk 
+Part B: Test your SSH connection in Ubuntu  
+(1) Log in to your Ubuntu system, and open “Terminal”.  
+Click Dash Home and search “Terminal”. Then select “Terminal” and open it.  
+In “Terminal”, use command ssh to connect server snowball.cs.gsu.edu.   Ssh campusId@snowball.cs.gsu.edu 
+E.g. my camps Id is frondel1, so I use ssh frondel1@snowball.cs.gsu.edu  
+Note:  
+1. Your password for camps Id should be the password for this server.  
+2. If the server warns you that the authenticity of host cannot be established and ask you if you  want to continue connecting, please enter “yes”.  
+3. Remember to hit “Enter” once you input the command after the prompt ‘$’. 
+(3) Attach a screen shot like following figure in your report. Name your screenshot  file as L1_P2_ FirstnameLastname.png (or .jpg). E.g. L1_P2_FilRondel.png  
+This figure includes your “terminal” and ssh connection.  
+Note : Screen shot short cut in Mac OS, command + shift + 4; in windows, use key PrintScreen.    
+ 
+Submission: 
+• Upload the screenshots required in Part B to folder "Lab1_Part2" of the Dropbox in the iCollege.  
+Appendix:  
+To check the ssh connection  
+x For a Mac user, you can also try the utility “Terminal” in Mac OS.  
+x For a Windows user, you can also try the terminal emulators, e.g. PuTTY,  Xshell . Note: In the connection configuration, host name is  snowball.cs.gsu.edu, login account name is your campus Id, protocol is ssh,  and port is usually 22.  
+Useful links:  
+1. Download Xshell  
+https://www.netsarang.com/download/free_license.html 
+2. Xshell Tutorial https://www.netsarang.com/tutorial/xshell/1004
