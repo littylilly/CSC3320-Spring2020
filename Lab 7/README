@@ -1,0 +1,31 @@
+Lab 7 Files:
+
+Assignment:
+CSC3320 System Level Programming 
+Lab Assignment 7 - Post-Lab 
+Due at 11:59 pm on Friday, March 5, 2021 
+Purpose: Learn how to get input and print out formatted results  using scanf and printf separately in C. 
+
+Part 1: 
+1) Write a C program named as getPhoneNumber.c that prompts the user to  enter a telephone number in the form (999)999-9999 and then displays the  number in the form 999-999-999: 
+Enter phone number [(999)999-9999]: (404)123-4567  You entered 404-123-4567 
+Question: Execute your getPhoneNumber.c and attach a screenshot of the output. Then write the source code of getPhoneNumber.c in your answer sheet and upload your file  getPhoneNumber.c to googleClassroom. 
+
+2) Write a program named as calcPrice.c that formats product information  entered by the user and calculate the total amount of purchase. 
+Enter item number:583 
+Enter unit price:13.5 
+Enter quantity:2 
+Enter purchase date (mm/dd/yyyy):09/15/2016 
+Item Unit Price QTY Purchase Date Total Amount 583 $ 13.50 2 9/15/2016 $ 27.00 
+The item number, quantity and date should be left justified; the unit price and  total amount should be right justified. Hint: Use tabs to line up the columns. Question: Execute your calcPrice.c and attach a screenshot of the output. Then write the 
+source code of calcPrice.c in your answer sheet and upload your file calcPrice.c to  classroom. 
+
+Part 2: (Optional) 
+Note : This part is not for grading. But you will get some feedback. Can you write a shell script to finish the same task as in question 1) of Part 1? 
+1
+
+Submssion: 
+• Please follow the instructions below step by step, and then write a report by  answering the questions and upload the report (named as  
+Lab7_FirstNameLastName.pdf or Lab7_FirstNameLastName.doc) to  Google Classroom, under the rubric Lab 7 Out-of-lab Assignment. • Upload files getPhoneNumber.c and calcPrice.c to the rubric named “Lab7”  of the classroom. Note: if you do not upload the C files you would get  zero for this assignment. 
+• Please add the lab assignment NUMBER and your NAME at the top of your  file sheet. 
+2
