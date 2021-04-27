@@ -1,0 +1,58 @@
+Homework 4 Files:
+
+Assignment:
+CSc 3320: Systems Programming
+Spring 2021
+Homework
+# 4: Total points 100
+
+Submission instructions:
+Create a Google doc for each homework assignment submission.
+Start your responses from page 2 of the document and copy these instructions on page 1. 
+Fill in your name, campus ID and panther # in the fields provided. If this information is missing in your document TWO POINTS WILL BE DEDUCTED per submission.
+Keep this page 1 intact on all your submissions. If this submissions instructions page is missing in your submission TWO POINTS WILL BE DEDUCTED per submission.
+Each homework will typically have 2-3 PARTS, where each PART focuses on specific topic(s).
+Start your responses to each PART on a new page. 
+If you are being asked to write code copy the code into a separate txt file and submit that as well.
+If you are being asked to test code or run specific commands or scripts, provide the evidence of your outputs through a screenshot and copy the same into the document.
+Upon completion, download a .PDF version of the document and submit the same.
+
+
+Full Name: 
+
+Campus ID: 
+
+Panther #: 
+
+
+
+
+
+
+
+ALL PROGRAMS MUST BE COMMENTED. YOUR SOLUTION WILL NOT BE ACCEPTED IF THERE ARE NO COMMENTS IN YOUR SCRIPT. Also note that the comments MUST be useful and not be random.
+
+PART 1: 40pts
+Must incorporate use of Functions and Pointers 
+
+Write a C program checkPasswd.c to check if the length of a given password string is 10 characters or not. If not, deduct 5 points per missing character. If the total deduction is greater than 30 points, print out the deduction and message "The password is unsafe! Please reset."; otherwise, print out "The password is safe."
+
+Similar to above question, update the C program checkPasswd.c to check if a password is safe or by not by checking only the evaluation criteria below. It will still print out the final score, and "safe" or "unsafe" when deduction is more than 30 points.
+Missing lower case 						   -20 points
+Lack of capital letters 					            -20 points
+Missing numbers 						   -20 points
+More than 2 consecutive characters (e.g. 123 or abc)  -20 points
+            
+
+Part II : 40pts
+Must incorporate the use of Functions and Pointer arrays
+
+Write a program that reads a message (can be characters, numeric or alphanumeric) and checks whether it is a palindrome (the characters in the message are the same when read from left-to-right or right-to-left).
+
+Write a program that will swap two variables without the use of any third variable. Utilize this program to write a program that reads two sentences that contain alphanumeric characters and the program must swap all the numerics in sentence1  with alphabet characters from sentence 2 and vice-versa. Keep the lengths of the sentences as identical.
+
+Part III : 20pts
+Must incorporate Functions, Pointers or PointerArrays, and Structures or Unions
+
+Write a program that asks the user to enter an international dialing code and then looks it up in the country_codes array (see Sec 16.3 in C textbook). If it finds the code, the program should display the name of the corresponding country; if not, the program should print an error message. For demonstration purposes have at least 20 countries in your list.
+(Programming Project 1 on pg412 in C textbook)
